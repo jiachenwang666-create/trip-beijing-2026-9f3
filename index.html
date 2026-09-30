@@ -1,0 +1,351 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>北京 · 两个人的五日慢游 · 左家庄亚朵S版 REV.5</title>
+<style>
+:root{--ink:#233c3a;--muted:#687470;--paper:#f6f3eb;--line:#dedfd3;--accent:#b96040}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.75 system-ui,-apple-system,"PingFang SC","Microsoft Yahei",sans-serif}h1,h2,h3,p{margin:0}a{color:inherit;text-underline-offset:4px}button{font:inherit;cursor:pointer}header{padding:60px max(5vw,24px) 40px;background:#203e3b;color:#fff;position:relative;overflow:hidden}header:after{content:'北京';position:absolute;right:4%;top:-65px;font:250px/1.4 serif;color:#ffffff07;pointer-events:none}.eyebrow{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#b8ccbd}h1{font:clamp(32px,5vw,64px)/1.3 Georgia,"Songti SC",serif;margin:12px 0 16px;font-weight:500}header p{max-width:800px;color:#d9e3dc}.pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}.pill{padding:5px 13px;border:1px solid #ffffff40;border-radius:30px;font-size:12px}.wrap{max-width:1400px;margin:auto;padding:0 4vw}nav{position:sticky;top:0;z-index:20;background:#f6f3ebf5;backdrop-filter:blur(10px);display:flex;overflow:auto;gap:8px;padding:16px 4vw;border-bottom:1px solid var(--line)}nav button,.smallbtn{border:1px solid var(--line);background:transparent;border-radius:8px;padding:8px 16px;white-space:nowrap;color:var(--ink)}nav button.active{background:var(--ink);color:#fff}.intro{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:30px 0}.intro div{border-left:2px solid #adbea7;padding-left:16px}.intro b{display:block;font-size:19px}.intro small,small{color:var(--muted)}.sectiontitle{display:flex;justify-content:space-between;align-items:center;gap:20px;margin:30px 0 20px}.sectiontitle h2{font:28px/1.4 Georgia,"Songti SC",serif}.subtitle{color:var(--muted);font-size:13px}.timeline{background:#fffdf8;border:1px solid var(--line);border-radius:14px;padding:24px}.stop{padding:0 0 23px 22px;border-left:1px solid #d1d7c8;position:relative}.stop:before{content:'';position:absolute;width:8px;height:8px;border-radius:50%;background:var(--accent);left:-4.5px;top:8px}.stop:last-child{padding-bottom:0}.time{font-size:11px;letter-spacing:1px;color:var(--accent);font-weight:700}.stop h3{font-size:17px;margin:3px 0}.stop p{font-size:13px;color:#64716c}.note{padding:14px 18px;border-left:3px solid var(--accent);background:#eee7da;font-size:13px;margin:15px 0}.meals{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.meal{background:#fffdf8;border:1px solid var(--line);border-radius:12px;padding:22px}.meal h3{font-size:18px;margin:8px 0}.meal p{font-size:13px;margin:8px 0;color:#65716c}.meal .cost{color:var(--accent);font-weight:700}.badge{font-size:11px;text-transform:uppercase;color:var(--accent);letter-spacing:1px}.box{background:#fffdf8;border:1px solid var(--line);border-radius:12px;padding:24px}.box p{margin:10px 0;font-size:13px}.box h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:13px}td,th{text-align:left;padding:12px 8px;border-bottom:1px solid var(--line)}th:first-child{text-align:left}td.num,th.num{text-align:right;white-space:nowrap}tr.total{font-weight:bold;color:var(--accent)}details{border-bottom:1px solid var(--line);padding:16px 0}summary{cursor:pointer;font-weight:600}details p{margin:10px 0;font-size:13px}details table{margin:10px 0}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:24px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.dayblock{margin-top:10px}.dayhead{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}.dayhead h2{font:26px/1.4 Georgia,"Songti SC",serif}.tag{font-size:11px;color:var(--accent);border:1px solid var(--accent);border-radius:20px;padding:2px 10px;white-space:nowrap}.sources{display:flex;gap:12px 22px;flex-wrap:wrap;font-size:12px}footer{padding:30px 0 60px;color:#6b746c;font-size:11px}.tablewrap{overflow-x:auto}.diff li{font-size:13px;margin:6px 0}
+.alert{background:#fbf0e9;border:1px solid var(--accent);border-left-width:4px;border-radius:12px;padding:22px 24px;margin:24px 0}.alert h3{font:20px/1.4 Georgia,"Songti SC",serif;color:var(--accent)}.alert p{font-size:13px;margin:10px 0}
+.st{display:inline-block;font-size:11px;padding:2px 9px;border-radius:20px;white-space:nowrap;border:1px solid}.st-ok{color:#2f6b45;border-color:#8fb89c;background:#eaf3ec}.st-no{color:#9a3b22;border-color:#d6a08c;background:#f8ece6}.st-mid{color:#8a6a1f;border-color:#cdb479;background:#f6f0e0}
+.chk{list-style:none;padding:0;margin:10px 0;font-size:13px}.chk li{padding:7px 0 7px 26px;border-bottom:1px dashed var(--line);position:relative}.chk li:before{content:'☐';position:absolute;left:0;top:7px;color:var(--accent)}.chk li:last-child{border-bottom:0}
+.kv{font-size:13px;margin:10px 0}.kv b{color:var(--ink)}
+@media(max-width:850px){header{padding-top:35px}.grid2,.grid3,.meals{grid-template-columns:1fr}.wrap{padding:0 20px}nav{padding:12px 20px}.intro{gap:12px}.intro b{font-size:16px}.sectiontitle{align-items:flex-start;flex-direction:column}}@media print{nav,.smallbtn{display:none!important}header{padding:25px;color:#203e3b;background:white}.eyebrow,header p{color:#203e3b}body{font-size:12px}.timeline,.meal,.box,.alert{break-inside:avoid}details{break-inside:avoid}details>*{display:block!important}}
+</style>
+<header><div class="eyebrow">A BEIJING JOURNAL · 02—06 OCT 2026 · REV.5</div><h1>北京，两个人的五日慢游 · 左家庄亚朵S版</h1><p>必去的前置、弹性日的留白、17号线门口的家。故宫已由散客团锁定 10.3，两段航班号已落定——这一版把"抢不抢得到票"的不确定性换成了"细节有没有确认"。REV.5 是按确认事实做的执行层改版。</p><div class="pills"><span class="pill">杭州出发 · 5天4晚</span><span class="pill">东直门左家庄亚朵S · 连住4晚</span><span class="pill">MU5148 去 · HU7177 回</span><span class="pill">10.3 故宫散客团 12:30 集合</span><span class="pill">REV.5 · 2026.09.22 二校</span></div></header>
+<nav id="tabs">
+<button data-d="all" class="active" onclick="showDay('all')">全部</button>
+<button data-d="d2" onclick="showDay('d2')">10.2 抵京</button>
+<button data-d="d3" onclick="showDay('d3')">10.3 故宫散客团</button>
+<button data-d="d4" onclick="showDay('d4')">10.4 老城·nino</button>
+<button data-d="d5" onclick="showDay('d5')">10.5 环球</button>
+<button data-d="d6" onclick="showDay('d6')">10.6 天坛·返程</button>
+</nav>
+<main class="wrap">
+
+<div class="alert"><h3>距出发 10 天 · 今天要落定的三件事</h3>
+<p>今天是 <b>2026 年 9 月 22 日（周二）</b>。故宫（10.3 散客团、12:30 集合）和两段航班号（MU5148 / HU7177）已经定了，最大的不确定性从"抢不抢得到票"变成了"细节有没有确认"。今天做三件：</p>
+<p><b>① 酒店下单锁房</b>——页面标注房量紧张，免费取消到入住当天 12:00，先占位子的成本约等于零。<br>
+<b>② 向组团方确认散客团三件事</b>：含不含故宫门票？集合点具体在哪（广场内还是午门外）？广场预约是团里统一办还是要自己约？——这三个答案直接决定 10.3 上午怎么走。<br>
+<b>③ 查 MU5148 / HU7177 票面</b>——起降时刻和航站楼。起飞到达是<b>大兴还是首都</b>，决定 10.2 接机动线和 10.6 整天编排（含南门涮肉机场店是否成立）。</p>
+<p>另外：大董 10.3 晚上的可取消位子今天订上（四季民福不接受预订，这是唯一的双保险）。剩下的都排在倒计时表里，按天做即可。</p></div>
+
+<div class="intro"><div><small>固定费用口径</small><b>¥7,256 ＋ 散客团费</b><small>机票 3,000（已定）＋ 亚朵S 四晚 3,056 ＋ 环球 1,200；<b>散客团费用未计入</b>，确认价格后补</small></div><div><small>本版完整预算</small><b>约 ¥9,800–11,500</b><small>含四季民福／大董＋nino 氛围晚餐；不是实时成交价</small></div><div><small>这趟的节奏</small><b>必去项已锁定</b><small>10.3 故宫散客团落袋；10.4 弹性垫在环球前；返程按票面时刻兜底</small></div></div>
+
+<div class="sectiontitle"><div><span class="badge">VERIFICATION STATUS · 2026.09.22 二校</span><h2>哪些是确认过的，哪些还悬着</h2></div><p class="subtitle">把"已证实"和"按往年推断"明确分开，别让推断冒充事实。绿色代表可以停止担心，红色代表出发前必须有人去点掉。</p></div>
+<div class="box"><div class="tablewrap"><table>
+<tr><th>事项</th><th>状态</th><th>依据 / 下一步</th></tr>
+<tr><td><b>10.3 故宫散客团 · 12:30 集合</b></td><td><span class="st st-ok">已订</span></td><td>你方确认预订。<b>仍需向组团方确认三件事</b>：①是否含故宫门票（官方旺季 60 元/人）②集合具体地点（广场内还是午门外——决定要不要自约广场预约）③费用与退改条款。<b>12:30 集合按"过时不候"对待。</b></td></tr>
+<tr><td><b>MU5148 / HU7177 航班号</b></td><td><span class="st st-ok">已订</span></td><td>你方确认：10.2 出发 MU5148、10.6 返程 HU7177。<b>起降时刻与航站楼本页未核验、也查不到 2026 时刻表——以票面为准。</b>拿到票面第一件事：确认是<b>大兴还是首都</b>，两个机场到左家庄差一倍时间，10.2 接机与 10.6 全天都跟着它走。</td></tr>
+<tr><td>故宫 延禧宫 关闭</td><td><span class="st st-ok">已证实</span></td><td>官方公告（2026/08/27 发布）：<b>2026 年 9 月 1 日至 10 月 31 日</b>因保护性勘察闭馆，11 月 1 日恢复。<b>覆盖整个国庆假期</b>。散客团走中轴线一般不含延禧宫——写在这里是防止导游临时加项或自己绕路白跑。</td></tr>
+<tr><td>故宫 太和门 施工</td><td><span class="st st-mid">部分</span></td><td>8 月 3 日起施工，公告未写结束日期，国庆期间是否仍围挡不明。当作"可能有脚手架"，别把太和门当必拍机位。</td></tr>
+<tr><td><b>天安门广场 预约制</b></td><td><span class="st st-mid">框架已证实</span></td><td>确认：广场<b>全面预约制</b>，没预约不得入内，2021 年 12 月起施行，可通过微信或支付宝预约。<b>未能证实</b>：提前几天开放、每天几点放票、是否分上下午场。日期固定 10.3。<b>先问组团方是否统一办；若要自约，本周内打开小程序读页头的可选日期范围＋放票时间。</b></td></tr>
+<tr><td><b>天安门城楼</b></td><td><span class="st st-ok">已证实</span></td><td>城楼是<b>另一套预约</b>（"天安门城楼参观预约"，独立平台、收费），2023 年 6 月 13 日恢复开放，滚动放号。<b>约广场不等于能上城楼</b>。本方案默认不上城楼，只在广场看外观。</td></tr>
+<tr><td><b>北京地铁 2026 国庆封站公告</b></td><td><span class="st st-no">未证实</span></td><td>仍未查到 2026 年专项运营公告。下方封站表<b>是 2022–2025 四年惯例</b>，不是今年安排。@北京地铁 通常 9 月下旬发布，服务热线 96165。<b>10.1 和 10.2 各查一次，出发前一天按当年公告复核全部路线。</b></td></tr>
+<tr><td><b>环球影城 10 月运营时间</b></td><td><span class="st st-no">未证实</span></td><td>官网运营日历动态加载，抓不到具体日期的开闭园时间。节假日通常延长营业，但一般只提前 1–2 个月公布，早期显示标注为预估、可能变更。<b>只认官方 App 当天的数据</b>，10.4 晚和 10.5 下午各查一次闭园时间。</td></tr>
+<tr><td><b>亚朵S 房价与房态</b></td><td><span class="st st-no">未证实</span></td><td>¥764/晚、"房量紧张"、免费取消至入住当天 12:00，都是 09.19 记录的页面信息。<b>今天下单时逐条对照页面实际条款</b>，尤其是取消政策——它是整个方案的容错来源。</td></tr>
+</table></div>
+<p style="margin-top:12px"><b>这张表的用法：</b>红色"未证实"的行，出发前必须有人去点掉；不要因为写进了行程就当成已经确定。</p></div>
+
+<div class="sectiontitle"><div><span class="badge">COUNTDOWN</span><h2>从今天到出发，按天做什么</h2></div><p class="subtitle">每行只有一个动作。做完打勾（打印后手写）。</p></div>
+<div class="grid2">
+<div class="box"><h3>订票与预约</h3><div class="tablewrap"><table>
+<tr><th>时间</th><th>动作</th><th>备注</th></tr>
+<tr><td><b>今天 9.22</b></td><td>酒店下单锁房</td><td>1 间／2 人／10.2 入住 10.6 退房／含双早；确认免费取消条款</td></tr>
+<tr><td><b>今天 9.22</b></td><td><b>向组团方确认散客团三件事</b></td><td>①含不含故宫门票 ②集合点具体位置 ③广场预约谁办；顺带问清退改条款</td></tr>
+<tr><td><b>今天 9.22</b></td><td><b>查 MU5148 / HU7177 票面</b></td><td>起降时刻＋航站楼；确认<b>大兴 or 首都</b>，决定 10.2 与 10.6 走哪套动线</td></tr>
+<tr><td>今天 9.22</td><td>订大董 10.3 晚可取消位子</td><td>四季民福不可订，这是唯一兜底</td></tr>
+<tr><td>9.23</td><td>买环球 10.5 日期票（两人）</td><td>官方渠道；优速通<b>先不买</b></td></tr>
+<tr><td>9.23</td><td>落实天安门广场预约（10.3）</td><td>团里统一办→只要凭证；自己约→按小程序页头放票规则抢 10.3 场</td></tr>
+<tr><td>9.24–9.25</td><td>复查故宫公告页</td><td>票已由团解决，<b>只看开放时间调整与施工公告</b>（影响当天路线，不影响拿票）</td></tr>
+<tr><td>9.29</td><td>电话订南门涮肉首都机场店</td><td>010-80819009，"落地窗停机坪位"。<b>前提：HU7177 确认从首都起飞</b>；若大兴，这行作废</td></tr>
+<tr><td>9.30</td><td>电话确认 nino 10.4 17:30 订位仍有效</td><td>顺带问国庆营业时间与最低消费</td></tr>
+</table></div></div>
+<div class="box"><h3>信息复核与打包</h3><div class="tablewrap"><table>
+<tr><th>时间</th><th>动作</th><th>备注</th></tr>
+<tr><td>10.1</td><td>查 @北京地铁 国庆运营公告</td><td>重点：1 号线天安门东／西、2/8 号线前门、王府井站</td></tr>
+<tr><td>10.1</td><td>查 10.2–10.6 天气预报</td><td>决定外套厚度与是否带伞；见下方天气预案</td></tr>
+<tr><td>10.1</td><td>离线准备：地图下载、证件拍照留底</td><td>见下方"随身与离线"</td></tr>
+<tr><td><b>10.1 晚</b></td><td><b>按当年公告复核全部路线</b></td><td>公告若与往年不同，优先改 10.3 与 10.4 两天</td></tr>
+<tr><td>10.1 晚</td><td>打包完成，充电宝充满</td><td>充电宝走随身、不能托运</td></tr>
+<tr><td>10.2 出发前</td><td>再确认 MU5148 时刻与航站楼</td><td>大兴／首都别搞混（本页两套动线都备好了）</td></tr>
+<tr><td>10.2 入住时</td><td>问清三件事</td><td>双早份数、早餐收餐时间、<b>行李寄存政策</b>（10.6 要用）</td></tr>
+<tr><td>10.2 入住时</td><td>问延迟退房可能性</td><td>10.6 想拖到 13:00–14:00，提前打招呼概率更高</td></tr>
+<tr><td>10.3</td><td>确认 10.4 晚餐与 10.6 晚餐安排无变</td><td>nino 9.30 已确认过；南门涮肉订位短信留好</td></tr>
+<tr><td>10.4 晚</td><td>查环球 10.5 开闭园时间（第一次）</td><td>官方 App</td></tr>
+<tr><td>10.5 下午</td><td>再查闭园时间＋当晚 1 号线末班</td><td>下方"末班余量"公式照算</td></tr>
+<tr><td>10.5 晚</td><td>提前用 HU7177 的 App 值机、选座</td><td>值机截载以票面起飞时间为基准，别拖到当天</td></tr>
+</table></div></div>
+</div>
+
+<div class="sectiontitle"><div><span class="badge">HOME BASE</span><h2>四晚一个家：东直门左家庄亚朵S</h2></div></div>
+<div class="grid2">
+<div class="box"><h3>北京东直门左家庄地铁站亚朵S酒店</h3>
+<p>朝阳区香河园路左家庄15号 · 4.8 分 / 6,778 条点评（超棒）</p>
+<p><b>高级大床房</b> 32㎡ · 1.8米大床 · 有窗禁烟 · <b>含双早</b> · ¥764/晚（连住专享＋门店首单）→ <b>四晚 ≈ ¥3,056</b>；另有高级家庭房 ¥807/晚、55㎡ 几木公寓房可选。</p>
+<p><b>免费取消至入住当天 12:00</b>（三家里政策最宽松）· 页面标注"房量紧张"，<b>今天下单锁房</b>，反正当天中午前都能免费取消。</p>
+<p>深夜粥到 21:30–23:00（环球夜归的兜底）。</p>
+<p class="kv"><b>提醒：</b>以上价格与房态是 09.19 的页面记录。下单时对照实际页面；若涨价超过 15%，别硬扛，同片区（三元桥／东直门／工体）同价位可替换，位置逻辑（17 号线＋机场线双通道）比品牌重要。</p></div>
+<div class="box"><h3>位置与轨道</h3>
+<p><b>左家庄站（17号线）</b>就在酒店街区，步行约 5–10 分钟（订好后导航确认）；17号线 8 节大编组，高峰 6 分钟一班。</p>
+<p>17号线往南 3 站<b>永安里 → 换 1 号线</b>（天安门东／国贸／环球方向）；2 站<b>东大桥 → 换 6 号线</b>（北海北／南锣鼓巷）；1 站工人体育场换 3 号线。</p>
+<p><b>东直门</b>约 1.3km（2号线/13号线/<b>首都机场线</b>），<b>三元桥</b>约 1.6km（10号线/机场线）——若 MU5148 落地首都机场，东直门就是离家最近的机场动线终点。</p>
+<p>三里屯 800m · 亮马河水岸 480m · 雍和宫 2.6km：晚上遛弯资源是这版最富的。</p>
+<p class="kv"><b>先做一次实测：</b>订好房当天，用地图从"左家庄站 A 口"走到酒店门口看真实步行时间。5 分钟和 12 分钟，对 10.5 早出晚归那天的体感完全不同。</p></div>
+</div>
+
+<div class="sectiontitle"><div><span class="badge">DAY BY DAY</span><h2>五天，一天一个重点</h2></div><p class="subtitle">时间为规划估算；公共交通标两人合计，打车标一辆普通车总价（两人共乘），不必再乘二。</p></div>
+
+<div class="dayblock" id="sec-d2">
+<div class="dayhead"><span class="tag">10.2 周五</span><h2>抵京日 · 把家安顿好</h2></div>
+<div class="grid2" style="margin-top:14px">
+<div class="timeline">
+<div class="stop"><div class="time">以票面为准</div><h3>MU5148 杭州 → 北京</h3><p>航班号已确认，<b>起降时刻与到达机场以票面为准（本页未核验）</b>。落地是哪个机场决定今晚怎么走——下面两套动线都备好了，出发前用票面二选一。</p></div>
+<div class="stop"><div class="time">方案 A · 落地大兴</div><h3>大兴机场 → 酒店，打车</h3><p>约 55–60km，70–90 分钟，150–180 元/车。带行李不建议地铁。<b>备选：</b>大兴机场线到草桥换 10 号线到三元桥，约 90–110 分钟、两人约 70 元，省钱但带箱子折腾，只在打车排大队时用。</p></div>
+<div class="stop"><div class="time">方案 B · 落地首都</div><h3>首都机场 → 酒店</h3><p>打车约 25km、30–40 分钟、60–80 元/车；或<b>首都机场线到东直门</b>（20–25 分钟，约 25 元/人）再打车起步价或步行 1.3km——离酒店最近的一条机场动线。</p></div>
+<div class="stop"><div class="time">到店后 40 分钟</div><h3>入住 · 把三件事问掉</h3><p>双早份数、早餐收餐时间、<b>行李寄存政策</b>（10.6 上午要用）。顺便打招呼：10.6 想延迟退房到 13:00–14:00，问问当天房态能不能配合。</p></div>
+<div class="stop"><div class="time">晚上 · 自由</div><h3>亮马河 / 三里屯散步</h3><p>亮马河水岸 480m、三里屯 800m，不设目标，走到哪算哪；顺便认一下左家庄站 17 号线入口——<b>明天中午前就要用，今晚认门比明天找路划算</b>。</p></div>
+</div>
+<div>
+<div class="meals" style="grid-template-columns:1fr"><div class="meal"><h3>晚餐 · 自由发挥</h3><p>三里屯一带解决，不做预约。<span class="cost">额度 150–300 / 两人</span></p><p>刚落地别排网红店，今天的目标是吃饱睡好。</p></div></div>
+<div class="note"><b>今天的任务清单：</b>① 入住三问（双早／收餐时间／行李寄存）② 打招呼延迟退房 ③ 认左家庄站入口 ④ 充电宝充满 ⑤ <b>把散客团集合点、集合时间、组团方电话再读一遍存进手机</b>。</div>
+</div>
+</div>
+</div>
+
+<div class="dayblock" id="sec-d3" style="display:none">
+<div class="dayhead"><span class="tag">10.3 周六 · 散客团已订</span><h2>天安门 · 故宫 · 烤鸭，一天三个经典机位</h2></div>
+<div class="grid2" style="margin-top:14px">
+<div class="timeline">
+<div class="stop"><div class="time">9:30 — 10:30</div><h3>晚起 + 酒店双早</h3><p>12:30 才集合，上午不用赶，但双早要吃扎实——集合前不安排正餐。<b>出门前三件：两人身份证原件、散客团订单截图、广场预约凭证（若自约）。</b>全程实名，证件原件不能忘——这是今天唯一不可挽回的失误。</p></div>
+<div class="stop"><div class="time">10:30 — 11:30</div><h3>出发：坐到王府井站</h3><p><b>按往年国庆惯例（2022–2025 一致），1 号线天安门东／天安门西站每日首班车至 19:30 封站，列车通过不停——白天坐不到天安门东。</b>路线：左家庄 → 17 号线 → 永安里换 1 号线 → <b>王府井站</b>下（正常停靠，节假日可能限流），约 50–60 分钟，地铁约 8–10 元/两人。<b>2026 年的封站安排必须按 10.1 发布的当年公告复核。</b></p></div>
+<div class="stop"><div class="time">11:30 — 12:15</div><h3>步行至集合点，提前 15 分钟到</h3><p>具体位置以组团方通知为准。<b>集合点在广场内</b>：王府井站沿长安街向西步行约 1.5km（25 分钟）＋国庆安检 10–15 分钟，需广场预约凭证；<b>集合点在午门外</b>：不进广场，按通知走外围路线。<b>12:15 必须人到——散客团过时不候，这是今天唯一的硬时间。</b></p></div>
+<div class="stop"><div class="time">12:30</div><h3>集合 · 跟团入宫</h3><p>门票通常由团统一出票（<b>是否含票已列入今天的确认清单</b>），刷身份证入园；以组团方通知为准。跟紧导游，听清自由活动与再次集合的纪律。</p></div>
+<div class="stop"><div class="time">12:30 — 15:45</div><h3>故宫 · 散客团导览</h3><p>午门入、神武门出，中轴线核心段约 2.5–3 小时，以导游节奏为准。<br><b>两个已知干扰提前知道：</b>延禧宫（"烂尾楼"水殿）2026 年 9 月 1 日至 10 月 31 日保护性勘察关闭，整个假期不开，导游加项或自己绕路都别去；太和门 8 月起施工、结束日期未公布，可能仍有围挡，别把它当必拍机位。</p></div>
+<div class="stop"><div class="time">15:45 — 16:00</div><h3>出神武门 · 决策点</h3><p>团程结束即看一眼四季民福取号小程序的当前桌数：<b>超过 20 桌，直接放弃景山去排队；20 桌以内，景山照上。</b></p></div>
+<div class="stop"><div class="time">16:00 — 18:00</div><h3>景山落日 或 直接取号</h3><p>A：景山万春亭看故宫全景，日落约 17:50（门票 2 元/人，开放时间出行前核实），下山时远程取号。B：怕等位就直接四季民福故宫店取号，等位期间在护城河边拍角楼。</p></div>
+<div class="stop"><div class="time">18:00 — 19:30</div><h3>晚餐：四季民福（故宫店）</h3><p>南池子大街，窗边位正对护城河与角楼。基本不接受预订、现场取号，国庆等位 1 小时以上是常态——到店先看桌数，见右侧止损规则。</p></div>
+<div class="stop"><div class="time">19:30 后</div><h3>回酒店</h3><p>19:30 后天安门东站恢复停靠：可从天安门东坐 1 号线 → 永安里换 17 号线回左家庄；19:30 前回程直接打车约 20–30 元。</p></div>
+</div>
+<div>
+<div class="meals" style="grid-template-columns:1fr">
+<div class="meal"><h3>主选 · 四季民福烤鸭店（故宫店）</h3><p>烤鸭＋角楼窗景；人均约 150–200。<span class="cost">两人约 300–450</span></p><p><b>止损规则：</b>取号排队 8 桌以内就等；超过就打车去大董，别恋战。</p></div>
+<div class="meal"><h3>兜底 · 大董（工体东路店方向）</h3><p>离酒店约 2km，打车起步价；<b>接受提前订位</b>。人均约 300–400。<span class="cost">两人约 600–800</span></p><p><b>双保险打法：</b>9.22 就订一个 10.3 晚上可取消的位子，当天先博四季民福——吃上了退大董，吃不上直接入座。</p></div>
+<div class="meal"><h3>午餐 · 从简</h3><p>12:30 集合，中午不安排正餐；双早吃扎实＋包里两块能量棒。<span class="cost">额度 40–60</span></p></div>
+</div>
+<div class="note"><b>今天值得拍：</b>天安门广场全景（顺光）、故宫中轴线（人流不可控，降低"无人空景"预期）、景山万春亭俯瞰落日、护城河角楼亮灯。穿搭：米白／深蓝／咖色。<br><b>纪律：今天唯一的硬时间是 12:30 集合</b>——地铁限流、安检排队，全部按"12:15 人到集合点"倒推；团程中想脱队拍照，先问清导游的集合纪律。<br><b>体力提示：</b>广场步行 1.5km＋故宫中轴 2km＋景山上下，合计 15,000 步上下。穿最舒服的鞋，别为拍照换新鞋。</div>
+</div>
+</div>
+</div>
+
+<div class="dayblock" id="sec-d4" style="display:none">
+<div class="dayhead"><span class="tag">10.4 周日 · 弹性日</span><h2>老城慢逛，云端晚餐收尾</h2></div>
+<div class="grid2" style="margin-top:14px">
+<div class="timeline">
+<div class="stop"><div class="time">9:30 — 11:00</div><h3>晚起 + 双早</h3><p>今天是可松可紧的缓冲日：走多少、看多少，全部看体力。<b>昨天走崩了就把上午整个删掉，直接睡到 12 点——这天存在的意义就是可以被牺牲。</b></p></div>
+<div class="stop"><div class="time">11:00 — 12:00</div><h3>前门大街 · 大栅栏</h3><p><b>推荐打车</b>：约 7km、20–25 分钟、20–30 元——往年国庆 2/8 号线前门站整个假期封站（2022、2024 全天，2025 年 2 号线全天），坐不了前门站。地铁备选：7 号线<b>珠市口站</b>下，向北步行约 800m。</p></div>
+<div class="stop"><div class="time">12:00 — 13:00</div><h3>午餐 · 前门一带自由解决</h3><p>四季民福已在昨晚吃掉，今天中午不排队：门框胡同卤煮、爆肚、炸酱面，随便吃。<b>晚上是正餐，中午别吃撑。</b><span style="color:var(--accent)">额度 80–150</span></p></div>
+<div class="stop"><div class="time">13:00 — 16:30</div><h3>胡同与水边，按兴趣三选一</h3><p><b>A 慢版：</b>杨梅竹斜街＋大栅栏细逛，走路最少、咖啡店最多，适合昨天走废了。<br><b>B 出片版：</b>东大桥换 6 号线到北海北，什刹海／银锭桥一带，水边人像最好拍。<br><b>C 补课版：</b>补昨天没看够的故宫外围——角楼、筒子河沿岸。<br>下午 16:45 必须收摊。</p></div>
+<div class="stop"><div class="time">16:45 — 17:25</div><h3>打车去国贸</h3><p>约 7km，20–30 元。这段地铁要绕，<b>必须打车</b>，给 17:30 的位子留足缓冲。<b>国庆晚高峰，16:45 叫不到车就先走到大路上，别在胡同里等。</b></p></div>
+<div class="stop"><div class="time">17:30 — 19:15</div><h3>晚餐 · Nino Nina 云顶意大利（已订）</h3><p>国贸商城北区 7 层 NL7003，建国门外大街1号；270° 俯瞰国贸CBD。入座时天光渐暗，饭后正是拍夜景的时间。10 月初北京日落约 17:50，<b>17:30 入座刚好吃到天黑，这个时间不要改晚</b>。</p></div>
+<div class="stop"><div class="time">19:30 后</div><h3>回酒店</h3><p>1 号线国贸 → 永安里换 17 号线 → 左家庄，约 35 分钟；累了就打车约 8km、25–35 元。</p></div>
+</div>
+<div>
+<div class="meals" style="grid-template-columns:1fr">
+<div class="meal"><h3>已订 · Nino Nina 云顶意大利餐厅</h3><p>意餐 · 270° 城市视角；两人约 500–800，以现场菜单为准。<b>9.30 前电话确认国庆营业、菜单与最低消费。</b><span class="cost">两人约 500–800</span></p><p>着装：这是五天里唯一值得穿正式一点的一餐。</p></div>
+</div>
+<div class="note"><b>今天值得拍：</b>大栅栏胡同人文、什刹海带环境的人像、nino 落地窗城市夜景。穿搭：晚餐换一套更简洁的衣服（白天逛胡同的鞋可以带一双替换）。<br><b>今晚要做：</b>查环球 10.5 开闭园时间（官方 App 第一次查）。</div>
+</div>
+</div>
+</div>
+
+<div class="dayblock" id="sec-d5" style="display:none">
+<div class="dayhead"><span class="tag">10.5 周一</span><h2>环球影城，玩到闭园</h2></div>
+<div class="grid2" style="margin-top:14px">
+<div class="timeline">
+<div class="stop"><div class="time">8:30 — 9:00</div><h3>起床，简餐出发</h3><p>五天里唯一早起的一天；早餐收餐前抓一口，或园内解决。<b>出门前把手机充满＋充电宝带上</b>——今天是全天离线不了的一天。</p></div>
+<div class="stop"><div class="time">9:00 — 10:00</div><h3>出发去环球度假区</h3><p>左家庄 → 17号线 → 永安里换 1 号线 → 环球度假区站；车程约 45–55 分钟，门到门 60–70 分钟，地铁约 14–16 元/两人。1 号线通过天安门东／西时不停站，不影响本段；环球度假区站节假日大客流<b>可能限流</b>，进站排队另留 15–30 分钟。</p></div>
+<div class="stop"><div class="time">入园前 30 分钟</div><h3>在 App 里把今天排好</h3><p>进园前完成：看当天开闭园时间、看演出场次表、<b>锁定两个"必玩"和一个"必看演出"</b>。别进园再想。</p></div>
+<div class="stop"><div class="time">10:00 — 闭园</div><h3>全天游玩 · 优先级顺序</h3><p>国庆按高峰排队预期（单日可超 5 万人次）。执行顺序：<br><b>① 开园即冲最想玩的那一个</b>（开园头 60 分钟是全天排队最短的时段，别浪费在拍门口）<br><b>② 按演出时刻表倒排</b>，演出是固定时间、错过就没了，游乐项目随时可排<br><b>③ 午餐避开 12:00–13:30</b>，11:00 或 14:00 吃，能省 30 分钟队<br><b>④ 下午体力下降后转拍照＋室内项目</b><br><b>⑤ 最后一小时冲一个白天没排上的</b>——闭园前队伍通常明显变短<br>热门方向：哈利·波特魔法世界、变形金刚、侏罗纪世界、小黄人乐园、功夫熊猫、好莱坞区演出。<b>具体项目与演出是否开放、有无检修停运，以当日官方 App 为准。</b></p></div>
+<div class="stop"><div class="time">视当天情况</div><h3>优速通：看实况再决定</h3><p>不提前加购。入园后看头两个项目的实际排队时长：<b>普遍 90 分钟以上就当场买，60 分钟以内就不买。</b>钱花在刀刃上，不花在焦虑上。</p></div>
+<div class="stop"><div class="time">闭园后</div><h3>按末班余量决定，不按"应该来得及"决定</h3><p>公式：<b>闭园时刻 ＋ 30–60 分钟出园进站 ＋ 至少 20 分钟余量</b>，与当晚 1 号线从环球度假区出发的末班对比。赶得上：原路地铁回（约 1 小时）；赶不上：打车约 25–28km、45–70 分钟、90–130 元/车。<b>下午 4 点就把这道算术做完，别等闭园时慌。</b></p></div>
+<div class="stop"><div class="time">回酒店后</div><h3>深夜粥到</h3><p>酒店 21:30–23:00 供应，夜归正好赶上。</p></div>
+</div>
+<div>
+<div class="meals" style="grid-template-columns:1fr"><div class="meal"><h3>园内餐饮</h3><p>正餐＋水＋一份小食。园区允许带少量未开封食品与空水壶（以当日园规为准），<b>带两瓶水进去能省不少</b>。<span class="cost">额度 150–250 / 两人</span></p></div></div>
+<div class="note"><b>今天值得拍：</b>先拍白天，傍晚补一组；减少全身大广角，优先城堡背景半身。务必穿走习惯的鞋。<br><b>门票：</b>两人估价 1,200 元，不含优速通；<b>9.23 前</b>在官方渠道购买 10.5 日期票。<br><b>随身：</b>充电宝、雨衣（比伞好用，排队时不挡人）、创可贴、备用袜子一双。过山车类项目要求物品寄存，<b>大包会增加寄存来回时间，背小包</b>。<br><b>未证实提醒：</b>10 月的具体开闭园时间官网查不到，节假日延长营业通常只提前 1–2 个月公布，早期显示的时间标注为预估可能变更——<b>只认 App 当天数据</b>。</div>
+</div>
+</div>
+</div>
+
+<div class="dayblock" id="sec-d6" style="display:none">
+<div class="dayhead"><span class="tag">10.6 周二</span><h2>睡到自然醒，天坛半日从容收尾</h2></div>
+<div class="grid2" style="margin-top:14px">
+<div class="timeline">
+<div class="stop"><div class="time">睡到自然醒（约 10:00）</div><h3>不设闹钟的早晨</h3><p>双早收餐前抓一口，或出门吃早午餐。想要延迟退房（13:00–14:00）可以问前台，视房态（10.2 入住时已打过招呼）；办不到就按 12:00 标准退。</p></div>
+<div class="stop"><div class="time">11:45</div><h3>退房，行李寄存前台</h3><p>10.2 入住时已确认寄存政策，这天直接用。<b>把晚上要用的东西（证件、充电宝、外套）单独拎一个小包，别全锁进大箱子。</b></p></div>
+<div class="stop"><div class="time">12:00 — 12:20</div><h3>打车去天坛</h3><p>约 7km、20–30 元；地铁也可（17号线→永安里换 1 号线→东单换 5 号线→天坛东门），但不赶时间，打车更省力。</p></div>
+<div class="stop"><div class="time">12:20 — 14:00</div><h3>天坛核心一圈</h3><p>祈年殿 → 回音壁 → 圜丘，1.5–2 小时足够；联票下午照常售票（停售时间出行前核实）。下午人比上午少，红墙与柱框出片，每个机位给 10 分钟上限。<b>从东门进最顺：东门→祈年殿→回音壁→圜丘→南门或西门出，不走回头路。</b></p></div>
+<div class="stop"><div class="time">14:00 — 14:45</div><h3>轻午餐垫一口</h3><p>天坛北门／磁器口小吃，锦芳、豆汁焦圈随便尝一点就好——<b>晚饭是涮肉大餐，这里别吃多</b>。<span style="color:var(--accent)">额度 40–80</span>。</p></div>
+<div class="stop"><div class="time">15:00 — 15:30</div><h3>回酒店取行李</h3><p>打车约 20–25 元。</p></div>
+<div class="stop"><div class="time">15:45 — 16:20</div><h3>打车直达南门涮肉（首都机场店）</h3><p><b>前提：HU7177 确认从首都机场起飞。</b>顺义区李天路19号，约 20–25km、60–80 元，行李随桌。到店若还没到 17:00 开餐，就在落地窗边等开门、看停机坪。<b>若 HU7177 从大兴起飞：本站作废</b>，改大兴机场内晚餐或市区提前吃（见下方备选）。</p></div>
+<div class="stop"><div class="time">17:00 — 18:15</div><h3>晚餐 · 南门涮肉（首都机场店）</h3><p>铜锅涮肉＋落地窗外的飞机与晚霞，手切鲜羊必点。人均约 111，<span style="color:var(--accent)">两人约 250–300</span>；<b>提前电话订位 010-80819009</b>（该店 11:00–14:00、17:00–22:00 营业，午后休息）。</p></div>
+<div class="stop"><div class="time">航班前 2 小时起</div><h3>进航站楼 · 值机托运</h3><p><b>提前在 App 值机（10.5 晚就做）</b>，到机场只托运不办手续，时间宽裕一倍。首都 T3 打车约 10 分钟；大兴则按 45–60 分钟车程另算。</p></div>
+<div class="stop"><div class="time">以票面为准</div><h3>HU7177 北京 → 杭州</h3><p>航班号已确认，<b>起降时刻与航站楼以票面为准（本页未核验）</b>。国内航班值机截载一般为起飞前 45–60 分钟（以海航票面/官网为准），<b>这个点是全天唯一的硬边界，一切按票面起飞时间倒推</b>。下面"纪律三条线"的公式随起飞时间整体平移。</p></div>
+</div>
+<div>
+<div class="meals" style="grid-template-columns:1fr">
+<div class="meal"><h3>主选 · 南门涮肉（首都机场店）</h3><p>顺义区李天路19号 · 010-80819009 · 正牌直营 9 家之一；落地窗正对停机坪，傍晚看晚霞。人均约 111。<span class="cost">两人约 250–300</span></p><p><b>9.29 前电话订位</b>（前提：首都机场已确认）；营业 11:00–14:00、17:00–22:00，午后休息。订位时说明"要落地窗位"。<b>若 HU7177 走大兴：改大兴机场内用餐，或把正餐提前到市区 14:00 前解决。</b></p></div>
+<div class="meal"><h3>午餐 · 轻垫一口</h3><p>天坛北门／磁器口小吃，点到为止——留给晚上的涮肉。<span class="cost">额度 40–80 / 两人</span></p></div>
+</div>
+<div class="note"><b>纪律三条线（以票面起飞时间 T 倒推）：</b>① <b>T−6h</b> 天坛准时收 ② <b>T−4.5h</b> 必须拿到行李 ③ <b>T−3.5h</b> 必须坐上去机场的车。任何一条破了就砍后面的内容，不砍航班余量。（参照：若起飞 19:55，即 14:00 收／15:25 拿行李／16:25 上车。）<br><b>舒适线 vs 底线：</b>T−3.5h 离开酒店＝舒适；T−2.5h 离开酒店＝底线（放弃机场店晚餐，直接进航站楼吃）。<br><b>防山寨：</b>点评上"南门涮肉"相关店铺 400+ 家多为山寨；北京正牌直营仅 9 家——天坛、东单、后海、南门小馆（国贸）、朝阳路、通州、河边、北洼路、首都机场。订位认准品牌主页直营名单。</div>
+</div>
+</div>
+</div>
+
+<div class="sectiontitle"><div><span class="badge">GETTING AROUND</span><h2>交通骨架与逐日汇总</h2></div></div>
+<div class="grid2">
+<div class="box"><h3>一张图记住：17号线是主干</h3>
+<p><b>老城 / 环球 / 国贸</b>：左家庄 →（17号线 3 站）→ 永安里 → 换 1 号线 → 王府井（天安门方向）、国贸、环球度假区，一条线串起三天。<b>但注意：国庆假期 1 号线天安门东／西每日首班车至 19:30 通过不停（往年惯例），白天去天安门只能坐到王府井步行进场。</b></p>
+<p><b>什刹海 / 北海</b>：左家庄 →（2 站）→ 东大桥 → 换 6 号线 → 北海北。</p>
+<p><b>返程（10.6）</b>：天坛 → 回酒店取行李 → 机场晚餐 → 进航站楼。首都机场走南门涮肉机场店＋打车 10 分钟进 T3（或机场线东直门/三元桥上车备选）；大兴则改园内用餐＋45–60 分钟车程。<b>具体走哪套，等 HU7177 票面确认。</b></p>
+<p>以上时间均为估算，含大致接驳；景点安检与国庆排队另计。</p>
+<p class="kv"><b>打车决策规则（省得每次纠结）：</b>两人合计地铁票价 ×3 仍低于打车价，且不赶时间 → 坐地铁；带行李、下雨、晚于 21:00、或时间余量不足 30 分钟 → 直接打车。</p></div>
+<div class="box"><div class="tablewrap"><table><tr><th>日期</th><th>主要交通</th><th class="num">费用/两人</th></tr>
+<tr><td>10.2</td><td>机场→酒店：大兴打车 150–180 ／ 首都打车 60–80（按票面二选一）</td><td class="num">60–180</td></tr>
+<tr><td>10.3</td><td>地铁至王府井站＋步行进场；夜归打车备用</td><td class="num">8–10（＋0–25）</td></tr>
+<tr><td>10.4</td><td>打车去前门＋两段打车（国贸往返）</td><td class="num">40–60</td></tr>
+<tr><td>10.5</td><td>地铁往返环球；夜归打车备用</td><td class="num">14–16（＋90–130）</td></tr>
+<tr><td>10.6</td><td>三段打车（天坛往返＋酒店→机场店→航站楼）</td><td class="num">120–160</td></tr>
+<tr class="total"><td>合计</td><td>混合模式（含夜归打车备用）</td><td class="num">约 250–535</td></tr></table></div>
+<p style="margin-top:10px">公共交通为主（环球夜敢坐地铁）可再压约 80–100 元；全打车模式约 700–900 元，二选一即可，勿重复相加。</p>
+<p class="kv"><b>乘车码先办好：</b>出发前在微信／支付宝开通"北京地铁乘车码"（或用交通联合卡／手机 NFC 公交卡），<b>别到闸机前才注册</b>。国庆人工售票窗排队很长。</p></div>
+</div>
+
+<div class="sectiontitle"><div><span class="badge">DEADLINES</span><h2>所有截止时间与取消条款，集中在一页</h2></div><p class="subtitle">出问题时最贵的不是钱，是"原来那时候还能免费退"。</p></div>
+<div class="box"><div class="tablewrap"><table>
+<tr><th>项目</th><th>关键时间</th><th>可否取消 / 改期</th><th>踩坑点</th></tr>
+<tr><td><b>故宫散客团（10.3）</b></td><td><b>12:30 集合，过时不候</b></td><td>按组团方退改条款（<b>今天确认清单第一项</b>）</td><td>迟到不候，按"不可商量"对待；是否含票问清，别到了门口发现票没出。</td></tr>
+<tr><td>天安门广场</td><td>预约 10.3 场；放票规则以小程序页头为准</td><td>免费预约，一般可取消</td><td><b>先问组团方是否统一办</b>；自约则本周读懂放票规则。<b>城楼是另一套预约</b>，别混。</td></tr>
+<tr><td><b>亚朵S 四晚</b></td><td>10.2 入住</td><td><b>免费取消至入住当天 12:00</b>（09.19 页面记录，下单时复核）</td><td>这是整个方案最大的容错来源。<b>先订，出问题当天中午前还能全退。</b></td></tr>
+<tr><td>环球日期票</td><td>10.5 当日有效</td><td>按官方规则，日期票通常改期／退票受限</td><td>买错日期很难救；下单前把日期读三遍。</td></tr>
+<tr><td><b>MU5148 / HU7177</b></td><td>10.2 出发 / 10.6 返程</td><td>看舱位票面；国庆期间低价舱多为不可退改或高额费用</td><td><b>确认退改规则</b>，别只看价格；时刻与航站楼以票面为准。</td></tr>
+<tr><td>大董（10.3 晚）</td><td>订可取消位子</td><td>可取消——这是它存在的全部意义</td><td>吃上四季民福后<b>记得退</b>，别放鸽子。</td></tr>
+<tr><td>Nino Nina（10.4 17:30）</td><td>已订</td><td>视餐厅政策</td><td>9.30 电话确认国庆是否正常营业、有无最低消费。</td></tr>
+<tr><td>南门涮肉（10.6）</td><td>9.29 电话订（前提：首都机场确认）</td><td>电话订位，可电话取消</td><td>认准首都机场店直营，<b>别订到山寨</b>；大兴则不订。</td></tr>
+<tr><td><b>10.6 值机截载</b></td><td><b>HU7177 起飞前 45–60 分钟</b>（以票面为准）</td><td>不可商量</td><td>全天唯一的硬边界。"纪律三条线"全部按票面起飞时间 T 倒推，为它服务。</td></tr>
+</table></div></div>
+
+<div class="sectiontitle"><div><span class="badge">COST & CHOICES</span><h2>把预算说清楚</h2></div></div>
+<div class="grid2">
+<div class="box"><div class="tablewrap"><table><tr><th>两人合计</th><th class="num">人民币</th></tr>
+<tr><td>往返机票含税费 · 已定（估价）</td><td class="num">3,000</td></tr>
+<tr><td>亚朵S 四晚含双早 · 携程页面价（¥764/晚，未复核）</td><td class="num">3,056</td></tr>
+<tr><td>环球两人门票 · 用户估价（不含优速通）</td><td class="num">1,200</td></tr>
+<tr><td>故宫散客团费用 · <b>未计入，确认价格后补</b>（若含票另含 60×2 门票价值）</td><td class="num">待确认</td></tr>
+<tr class="total"><td>固定小计（不含散客团）</td><td class="num">7,256</td></tr>
+<tr><td>餐饮：四季民福／大董＋nino＋机场店涮肉＋日常</td><td class="num">2,200–3,100</td></tr>
+<tr><td>市内交通 · 混合地铁打车</td><td class="num">250–535</td></tr>
+<tr><td>景点门票与余量（景山、天坛联票等）</td><td class="num">200–300</td></tr>
+<tr class="total"><td>完整预算（不含散客团）</td><td class="num">9,906–11,191</td></tr></table></div>
+<p>建议实际备款 1.05–1.2 万 <b>另加散客团费用</b>。不含购物、环球优速通、酒水、旅拍与升房。</p>
+<p class="kv"><b>预算弹一弹会怎样：</b>环球优速通两人 +600–1,600（视档位，当天决定）；四季民福吃不上改大董 +300；酒店涨价 15% +460；打车全替代地铁 +400。<b>最坏叠加约 1.35 万＋散客团费</b>，按这个数字准备心理预期。</p></div>
+<div class="box"><h3>REV.4 → REV.5 改了什么</h3>
+<ul class="diff">
+<li><b>故宫改散客团：</b>10.3 由"自己 13:05 入宫"改为"散客团 12:30 集合跟团"，9.26／9.27／9.29 三场抢票倒计时整体退役，替换为"确认散客团三件事"。</li>
+<li><b>10.3 时间轴重排：</b>围绕 12:30 集合重建上午段（双早吃扎实→王府井落点→12:15 人到集合点），新增集合纪律与"含票／集合点／广场预约谁办"三个确认点。</li>
+<li><b>航班落定：</b>MU5189→<b>MU5148</b>（10.2）、GJ8988→<b>HU7177</b>（10.6）。时刻与航站楼仍以票面为准，10.2 给出大兴／首都两套动线，10.6 全天按票面起飞时间 T 公式化。</li>
+<li><b>值机截载改公式：</b>不再写死 19:10，改为"起飞前 45–60 分钟截载"，纪律三条线随 T 平移（含 19:55 参照换算）。</li>
+<li><b>南门涮肉机场店改为条件项：</b>仅当 HU7177 从首都起飞才成立；大兴则改园内用餐或市区提前吃。</li>
+<li><b>移除日期方案选择器：</b>故宫日期已被散客团锁定为 10.3，early／late 备选失去意义。</li>
+<li><b>倒计时与截止表同步改写：</b>新增"确认散客团三件事""查票面机场"两行；9.29 订南门涮肉加前提；广场预约日期固定 10.3。</li>
+<li><b>预算：</b>散客团费用单列为"待确认"，未计入固定小计；上浮情景同步标注。</li>
+</ul>
+<p class="kv" style="margin-top:14px"><b>REV.3 → REV.4 概要</b>（要点保留）：核验状态表、倒计时清单、截止与取消汇总、延禧宫闭馆证实、城楼独立预约澄清、10.3 时间轴重叠修正、9.29 周二修正、环球五步优先级与优速通阈值、打包／天气／应急。</p>
+<p class="kv"><b>与 09.14 旧版（国贸/君悦）的差异</b>（沿用）：环球 10.3→10.5；两段酒店→连住 4 晚；故宫 10.5→10.3；新增天安门广场＋nino；四季民福挪至 10.3 晚餐；交通按 17 号线重算省约 200–400。</p></div>
+</div>
+
+<div class="sectiontitle"><div><span class="badge">PACK & PREP</span><h2>带什么，装什么，万一怎么办</h2></div></div>
+<div class="grid3">
+<div class="box"><h3>必带（丢了行程就断）</h3>
+<ul class="chk">
+<li><b>两人身份证原件</b>（散客团、天坛、机场、酒店全要）</li>
+<li>散客团订单 / 广场预约 / 环球票 凭证截图（存相册，别只靠小程序）</li>
+<li>充电宝（<b>随身不托运</b>）＋ 快充头 ＋ 两根线</li>
+<li>常用药：感冒、肠胃、止痛、创可贴、晕车</li>
+<li>雨衣（比伞好用，环球排队不挡人）</li>
+<li>走惯的鞋 ×1，替换鞋 ×1（10.4 晚餐换）</li>
+</ul></div>
+<div class="box"><h3>10 月初北京 · 穿什么</h3>
+<p>常年这个时段大致 <b>白天 20–23℃ / 早晚 10–13℃</b>，温差大、干燥、风偏凉。<b>这是常年区间不是预报，10.1 务必查实际预报再定。</b></p>
+<p><b>分层是关键：</b>短袖／薄衫 ＋ 薄毛衣或卫衣 ＋ 防风外套。白天在故宫晒得出汗，景山看完日落下山就冷。</p>
+<p>拍照色系：米白／深蓝／咖色，和红墙灰瓦都搭。晚餐那套单独带，别和白天混。</p>
+<p>干燥必备：润唇膏、身体乳、保湿喷雾。北京 10 月比杭州干很多。</p></div>
+<div class="box"><h3>随身与离线</h3>
+<ul class="chk">
+<li>开通<b>北京地铁乘车码</b>（微信／支付宝），别到闸机前才注册</li>
+<li>地图 App 下载北京离线包（景区信号差）</li>
+<li>本页 HTML 存本地，<b>离线可看</b>（外链需联网）</li>
+<li>把"12:30 集合"与 HU7177 截载时间设成手机提醒（拿到票面就设）</li>
+<li>组团方电话存进通讯录，别只留在聊天记录里</li>
+<li>证件正反面拍照留底，存云端</li>
+<li>现金 200–300 元（小吃摊、应急打车）</li>
+</ul></div>
+</div>
+
+<div class="sectiontitle"><div><span class="badge">BEFORE YOU GO</span><h2>提前确认这些，旅行就踏实很多</h2></div></div>
+<details open><summary>故宫散客团（已订）：三件事必须今天问清</summary>
+<ul class="chk">
+<li><b>含不含故宫门票？</b>官方旺季门票 60 元/人。若不含，出票方式和截止时间要问明。</li>
+<li><b>集合点具体在哪？</b>广场内（需广场预约凭证，问谁办）还是午门外（走外围路线）——直接决定 10.3 上午的走法与出门要带的凭证。</li>
+<li><b>费用与退改条款？</b>确认后把金额补进本页预算表。</li>
+<li>导览时长多久？决定几点出神武门，进而影响景山与四季民福的时间账。</li>
+<li>组团方电话存进手机；12:30 集合按"过时不候"对待，<b>12:15 人到</b>。</li>
+</ul>
+<p><b>两个已知干扰：</b>延禧宫 2026 年 9 月 1 日–10 月 31 日关闭（保护性勘察），整个假期不开，导游加项或自己绕路都别去；太和门 8 月起施工、结束日期未公布，可能仍有围挡。<a href="https://www.dpm.org.cn/announce.html" target="_blank">故宫公告页（出发前复查开放时间）</a> · <a href="https://www.dpm.org.cn/Visit.html" target="_blank">故宫参观规则</a></p></details>
+<details open><summary>天安门广场：预约制；城楼是另一套，别搞混</summary>
+<p><b>已证实：</b>进入广场需提前实名预约（免费），<b>没有预约不得入内</b>；预约制自 2021 年 12 月起施行，可通过微信或支付宝办理。本行程广场日期固定 <b>10.3</b>。</p>
+<p><b>先问组团方：</b>散客团若在广场内集合，通常由旅行社统一报备或统一预约——<b>问清谁办、凭证给谁</b>。若要自约：提前几天开放、每天几点放票、是否分上下午场这几条规则改过不止一次，<b>以"天安门广场预约参观"小程序页面顶部的可选日期范围与放票时间为准</b>，本周内打开看一次。</p>
+<p><b>天安门城楼：独立预约、独立平台、单独收费</b>（"天安门城楼参观预约"），2023 年 6 月 13 日恢复开放，滚动放号。<b>约到广场不等于能上城楼。</b>本方案默认不上城楼，只在广场与长安街看外观。升旗仪式需凌晨到场，不排入。</p></details>
+<details open><summary>环球闭园后：按末班余量决定</summary>
+<p><b>先说查不到的部分：</b>官网运营日历动态加载，本页未能取得 2026 年 10 月的具体开闭园时间。节假日通常延长营业（单日入园可超 5 万人次），但延长时段一般只提前 1–2 个月公布，早期显示的时间会标注为预估、可能变更。<b>只认官方 App／微信小程序／支付宝小程序当天数据。</b></p>
+<p>10.4 晚查一次、10.5 下午再查一次闭园时间，同时核对当晚 1 号线从环球度假区出发的末班。计算：<b>闭园＋30–60 分钟出园进站＋至少 20 分钟余量</b>；晚于末班直接打车（90–130 元/车，另留 100 元应急）。<a href="https://www.universalbeijingresort.com/zh_CN/park-schedule" target="_blank">官方运营日历</a> · <a href="https://bjsubway.com/" target="_blank">北京地铁时刻查询</a></p></details>
+<details open><summary>国庆特殊交通：天安门周边封站预案（<b>往年惯例，非 2026 公告</b>）</summary>
+<p>北京地铁每年国庆都会在天安门周边实施封站，2022–2025 四年规律高度一致。<b>截至 2026.09.22，仍未查到 2026 年的专项运营公告。</b>下表是往年惯例，不是今年安排。公告通常由 @北京地铁 于 9 月下旬发布（服务热线 96165），<b>10.1 查一次、出发前一天按当年公告复核全部路线。</b></p>
+<div class="tablewrap"><table><tr><th>车站／线路</th><th>往年国庆惯例（2022–2025）</th><th>对本行程的影响与对策</th></tr>
+<tr><td>1号线 天安门东／天安门西</td><td>假期<b>每日首班车至 19:30</b> 封站，列车通过不停车（四年一致）</td><td>10.3 白天<b>坐不到天安门东</b>：改坐到王府井站步行约 1.5km 进广场；19:30 后恢复停靠，晚饭后可正常坐地铁回</td></tr>
+<tr><td>2号线／8号线 前门</td><td>基本整个假期封站（2022、2024 全天；2025 年 2 号线全天、8 号线 10.1 至 19:30）</td><td>10.4 去前门大街<b>打车直达</b>，或 7 号线珠市口站步行约 800m；不把前门站排进任何路线</td></tr>
+<tr><td>王府井站</td><td>通常正常运营，个别年份个别出入口临时封闭、高峰限流</td><td>作为 10.3 前往集合点的落点，预留限流余量；备选打车到台基厂一带步行</td></tr>
+<tr><td>天安门广场周边道路</td><td>假期交通管制，网约车／私家车管控线外下客</td><td>所有涉及广场的行程按"车停外围＋步行进场"编排，穿舒适的鞋</td></tr>
+<tr><td>环球度假区站</td><td>节假日大客流限流（一般不封站）</td><td>10.5 进站排队余量 15–30 分钟，出发再提前 15 分钟</td></tr>
+<tr><td>机场线</td><td>往年国庆正常运营（首都机场线与大兴机场线均正常）</td><td>10.2／10.6 备选通道；具体用哪条等票面机场确认</td></tr></table></div>
+<p><b>一句话规则：</b>假期白天凡是"坐地铁到天安门东／西／前门"的路线一律视为不可用，改外围站点＋步行或打车；19:30 后天安门东／西恢复。本页各天行程已按此编排。<b>但这条规则本身也要用今年公告验证一次。</b></p></details>
+<details open><summary>餐厅边界：四季民福、大董、nino、南门涮肉</summary>
+<p><b>四季民福故宫店</b>：基本不接受预订，现场/线上取号，国庆等位 1 小时以上是常态；愿意等就删景山，先取号再去河边拍角楼。<b>排队超 8 桌即启动大董</b>；15:45 出神武门时先看一眼桌数，超 20 桌直接放弃景山去排。</p>
+<p><b>大董</b>：<b>9.22 就订</b> 10.3 晚上可取消位子作双保险，吃上四季民福就退掉。门店营业与国庆安排电话确认。</p>
+<p><b>Nino Nina（10.4 17:30 已订）</b>：9.30 前电话确认国庆营业、菜单与最低消费；两人 500–800 是额度不是套餐价。17:30 入座是为了吃到天黑，别改晚。</p>
+<p><b>南门涮肉首都机场店（10.6）</b>：9.29 电话订位 010-80819009，注明要落地窗位——<b>前提是 HU7177 确认从首都起飞</b>；营业 11:00–14:00、17:00–22:00，午后休息。<b>点评上同名店 400+ 家多为山寨</b>，北京正牌直营仅 9 家：天坛、东单、后海、南门小馆（国贸）、朝阳路、通州、河边、北洼路、首都机场。</p></details>
+<details open><summary>天气预案：一天一条 B 计划</summary>
+<p>10 月初北京常年白天 20–23℃、早晚 10–13℃，温差大、干燥。<b>10.1 查实际预报</b>再决定外套厚度。分日预案：</p>
+<div class="tablewrap"><table><tr><th>日期</th><th>下雨／降温怎么办</th></tr>
+<tr><td>10.2</td><td>基本无影响，散步改成三里屯室内闲逛。</td></tr>
+<tr><td><b>10.3</b></td><td><b>故宫跟团照走</b>（红墙雨景反而好看，带雨衣不带伞更好拍）；<b>景山日落取消</b>，直接去四季民福排队，把等位时间花在室内。集合别迟到——雨天人更多，集合点倒推时间再加 10 分钟。</td></tr>
+<tr><td>10.4</td><td>弹性日，雨大就整天改室内：大栅栏商铺＋咖啡馆，或干脆睡到 15:00 再直接去 nino。这天本来就可以被牺牲。</td></tr>
+<tr><td><b>10.5</b></td><td>环球雨天<b>看 App 实时停运</b>（过山车类常因雨暂停）；优先室内项目与演出，雨衣必带，拍照改室内场景。<b>不改期</b>——日期票改不了。</td></tr>
+<tr><td>10.6</td><td>天坛缩短到 1 小时（祈年殿＋回音壁即可）或直接取消，提前去机场店坐着等。<b>返程余量永远不让给天气。</b></td></tr></table></div></details>
+<details><summary>应急信息</summary>
+<p><b>电话：</b>报警 110 · 急救 120 · 火警 119 · 北京市民热线 12345 · 北京地铁服务热线 96165 · 交通运输服务监督 12328 · 消费者投诉 12315。</p>
+<p><b>就医：</b>不舒服先问酒店前台最近的急诊；左家庄一带就近有大型三甲医院（如中日友好医院方向约 3km），<b>以当时地图实时结果为准</b>，别按本页死记。带好身份证和医保卡，外地医保异地结算需提前在参保地 App 备案。</p>
+<p><b>走散：</b>约定集合点（每天第一个景点门口＋酒店大堂），手机没电时的备用方案：现金打车回酒店。</p>
+<p><b>证件丢失：</b>身份证丢了可凭"临时乘机身份证明"登机（机场公安值班室办理，提前 1 小时到），所以证件照片留底很重要。</p>
+<p><b>财物：</b>景区与地铁人多，背包前置；贵重物品别放外兜。</p></details>
+<details><summary>航班、酒店和环球的边界（未核验项）</summary>
+<p><b>MU5148（10.2 杭州→北京）与 HU7177（10.6 北京→杭州）航班号已确认；起降时刻与航站楼以票面为准，本页未核验。</b>拿到票面后两步：① 确认起飞／到达机场是大兴还是首都；② 按票面时间重算 10.2 接机动线与 10.6 全天硬线。若 MU5148 落地首都，接机动线反而更短（机场线东直门 20–25 分钟＋1.3km 或打车 60–80 元）；若 HU7177 从大兴起飞，南门涮肉机场店整段作废。<b>确认所购舱位的退改规则。</b></p>
+<p>酒店准确名称：北京东直门左家庄地铁站亚朵S酒店，朝阳区香河园路左家庄15号。下单核对：10.2 入住 10.6 退房、1 间 2 人、含双早份数、免费取消条款（入住当天 12:00 前）。<b>¥764/晚与"房量紧张"均为 09.19 页面记录。</b>左家庄站步行距离订好后用地图实测一次。</p>
+<p>环球：10.5 日期票于 9.23 前在官方渠道购买；开闭园时间与演出场次以官方 App 当天数据为准，官网日历本页抓取不到。</p></details>
+<details><summary>如果下雨、排队或体力不足</summary>
+<p>环球雨天看实时停运，优先室内与演出；老城下雨缩短户外、延长餐厅休息，不临时追加需预约的博物馆；故宫跟团照走。10.6 自然醒版底线按票面起飞时间 T 平移（T−2.5h 离开酒店），天坛收尾晚了就砍掉穿插项，返程不让给排队。景点不算少：故宫半天、老城一天、环球一整天、天坛半天，<b>再加长城或颐和园会明显挤压节奏，不建议加</b>。<br><b>体力分配：</b>10.3 最累（约 15,000 步）、10.5 次累（环球全天站立）、10.4 和 10.6 是恢复日。如果 10.3 走崩了，10.4 上午整个删掉睡觉——这正是把弹性日放在环球前面的原因。</p></details>
+
+<div class="sectiontitle"><h2>来源与使用说明</h2></div>
+<div class="sources"><a href="https://hotels.ctrip.com/hotels/2231618.html" target="_blank">亚朵S 携程页</a><a href="https://www.universalbeijingresort.com/zh_CN/park-schedule" target="_blank">环球运营日历</a><a href="https://www.dpm.org.cn/announce.html" target="_blank">故宫公告页</a><a href="https://www.dpm.org.cn/Visit.html" target="_blank">故宫参观规则</a><a href="https://bjsubway.com/" target="_blank">北京地铁</a><a href="https://hongyuan.cc" target="_blank">南门涮肉官方</a><a href="https://www.ceair.com" target="_blank">东航官网（MU5148）</a><a href="https://www.hainanairlines.com" target="_blank">海航官网（HU7177）</a></div>
+<footer>编排日期：2026.09.19 · <b>REV.5 校订于 2026.09.22（二校：故宫散客团 12:30 集合、MU5148/HU7177 落定）</b> · <b>本页含三类信息，请分开对待：已证实（延禧宫闭馆、天安门广场预约制与城楼独立预约；散客团 12:30 集合与两段航班号为用户确认事实）、往年惯例推断（国庆封站表，依据 2022–2025 公开运营公告）、未证实待查（散客团含票与集合点、2026 地铁国庆公告、故宫开放时间专项、环球 10 月运营时间、酒店房价房态、两航班时刻与航站楼）。</b>当年安排一律以官方公告与票面为准 · 金额按两位成人、一间房估算；若人数不同需重算。本版为纯文字速览版，可离线查看；外部链接需联网。REV.3／REV.4 并存可对照。金额与时刻均为规划估算，不是实时成交价。</footer>
+</main>
+<script>
+function showDay(id){var days=['d2','d3','d4','d5','d6'];days.forEach(function(d){document.getElementById('sec-'+d).style.display=(id==='all'||d===id)?'block':'none';});document.querySelectorAll('nav#tabs button').forEach(function(b){b.classList.toggle('active',b.getAttribute('data-d')===id);});window.scrollTo({top:0,behavior:'smooth'});}
+</script>
+</body></html>
